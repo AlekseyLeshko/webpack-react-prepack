@@ -1,0 +1,19 @@
+{
+  "name": "webpack-react-prepack",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlekseyLeshko/webpack-react-prepack.git"
+  },
+  "author": "Aleksey Leshko <alekseyleshko@gmail.com> (https://github.com/AlekseyLeshko)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlekseyLeshko/webpack-react-prepack/issues"
+  },
+  "homepage": "https://github.com/AlekseyLeshko/webpack-react-prepack#readme"
+}

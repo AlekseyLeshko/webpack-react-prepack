@@ -3,9 +3,16 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: path.join(__dirname, 'src'),
+
   output: {
     filename: 'bundle.js',
     path: path.join(__dirname, 'dist'),
   },
+
+  plugins: [
+    new webpack.DefinePlugin({
+      __DEV__: false,
+    }),
+  ],
 };
 

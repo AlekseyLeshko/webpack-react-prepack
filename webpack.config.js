@@ -13,6 +13,17 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
   },
 
+  resolve: {
+    modules: [
+      'node_modules',
+      path.resolve(__dirname, 'src')
+    ],
+    extensions: [
+      '.js',
+      '.jsx',
+    ],
+  },
+
   plugins: [
     new PrepackPlugin(),
     new CleanWebpackPlugin(['dist'], {

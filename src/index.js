@@ -1,6 +1,6 @@
-import service1 from './services/service1.js';
-import service2 from './services/service2.js';
-import temp from './services/temp/index.js';
+import service1 from 'services/service1.js';
+import service2 from 'services/service2.js';
+import temp from 'services/temp/index.js';
 
 (function() {
   function fib(x) {

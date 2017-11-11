@@ -1,4 +1,6 @@
 import service1 from './services/service1.js';
+import service2 from './services/service2.js';
+import temp from './services/temp/index.js';
 
 (function() {
   function fib(x) {
@@ -13,4 +15,7 @@ import service1 from './services/service1.js';
 console.log(service1);
 const a = JSON.stringify(service1);
 console.log(a);
+console.log(service2);
+console.log(temp);
+console.log(service2 === temp);
 

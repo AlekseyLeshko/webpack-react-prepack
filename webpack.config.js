@@ -14,11 +14,7 @@ module.exports = {
   },
 
   plugins: [
-    // new PrepackPlugin({
-      // prepack: {
-        // serialize: true,
-      // },
-    // }),
+    new PrepackPlugin(),
     new CleanWebpackPlugin(['dist'], {
       root: __dirname,
       verbose: true,

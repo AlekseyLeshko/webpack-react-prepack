@@ -1,25 +1,10 @@
-import service1 from 'services/service1.js';
-import temp from 'services/temp/index.js';
+(function() {
+  function fib(x) {
+    return x <= 1 ? x : fib(x - 1) + fib(x - 2);
+  }
 
-console.log('Hello world!');
-console.log(service1);
-console.log(temp);
-
-console.log(__DEV__);
-if (__DEV__) {
-  console.log('dev');
-}
-
-import React from 'react';
-import ReactDOM from 'react-dom';
-
-// import Game from './components/Game';
-
-ReactDOM.render((
-  <div>
-    hello {JSON.stringify(service1)}
-    {JSON.stringify(temp)}
-  </div>),
-  document.getElementById('root')
-);
+  let x = Date.now();
+  if (x * 2 > 42) x = fib(10);
+  global.result = x;
+})();
 
